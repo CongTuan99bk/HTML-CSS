@@ -356,7 +356,7 @@ p#ph1{
 
 /*----------- RESPONSIVE FOR MOBILE------------------*/
 
-@media screen and (min-width:250px) and (max-width:425px){
+@media screen and (max-width:425px){
     *{
        max-width: 100vw;
     }
@@ -494,6 +494,7 @@ p#ph1{
 
     /*Đây nha -----------------------------------------------------*/
     section.five{
+        padding-left: 0px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -657,7 +658,7 @@ p#ph1{
 
 /*----------- RESPONSIVE FOR IPAD------------------*/
 
-@media screen and (min-width:426px) and (max-width:768px){
+@media screen and (max-width:768px){
     *{
        max-width: 100vw;
     }
