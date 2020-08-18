@@ -498,11 +498,13 @@ p#ph1{
         flex-direction: column;
         align-items: center;
         padding-top: 50px;
+        padding-left: 0;
     }
     
     /***************************************************************************/
-    #p1{
+    .p1{
         font-size: 20px;
+        text-align: center;
         padding-bottom: 20px;
     }
     section.five img{
@@ -510,15 +512,23 @@ p#ph1{
         height: 34.42%;
         padding-bottom: 20px;
     }
-    #p2{
+    /* hoang edit */
+    .five .wrap-img-item-five{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .p2{ 
         font-size: 15px;
         padding-bottom: 5px;
+        text-align: center;
     }
     
     section.five button{
         font-size: 10px;
+        width: 100%;
         padding-bottom: 20px;
-        text-align: left;
+        text-align: center;
     }
     section.five a{
         text-decoration: none;
@@ -816,7 +826,8 @@ p#ph1{
     }
 
     section.five{
-        display: block;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         padding-top: 50px;
         padding-left: 6.25%;
