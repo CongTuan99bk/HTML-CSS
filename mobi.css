@@ -1,0 +1,300 @@
+/*----------- RESPONSIVE FOR MOBILE------------------*/
+
+@media screen and (min-width:320px)and (max-width:425px){
+    *{
+       max-width: 100vw;
+    }
+    :root{
+        font: status-bar;
+    }
+    /* Header*/
+    .one{
+        font-size: 7px;
+    }
+    .hihi h2{
+        font-size: 20px;
+        height: 20px;
+    }
+    .hihi .hi{
+        font-size: 25px;
+    }
+    #f1 #haha h6{
+        font-size: 10px;
+    }
+    #f1 ul{
+        padding-left: 20px;
+    }
+    .two{
+        padding-top: 20px;
+    }
+    #f2 a{
+        font-size: 10px;
+    }
+    .hd{
+        height: 150px;
+    }
+    .two{
+        display: flex;
+    }
+    #f1{
+        width: 50vw;
+    }
+    #f1 h2{
+        width: 50vw;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #f1 h6{
+        width: 50vw;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #f2 ul{
+        width: 50vw;
+    }
+    #f2 li{
+        width: 50vw;
+    }
+    
+    /*//////////////////////////////////////*/
+    /* Main */
+    .three{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    #f3 {
+        padding-left: 5%;
+        height: 40%;
+        width: 50vw;
+        margin-left: 0px;
+    }
+    #f3 img{
+        padding-left: 0px;
+        width: 50vw;
+        height: 25vh;
+    }
+    #f4{
+        padding-left: 5vw;
+        font-size: 4px;
+        padding-top: 10vh;
+        height: 45%;
+        margin-left: 0px;
+    }
+    #f5{
+        padding-bottom: 10px;
+    }
+    #f4 button{
+        display: flex;
+        text-align: center;
+        width: 45%;
+        height: 4%;
+        padding:5px 0px 5px 0px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    #f4 a{
+        font-size: 4px;
+    }
+
+    section.four{
+        display: block;
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+    section.four hr{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 60%;
+        height: 1px;;
+    }
+    section.four img{
+        width: 31.25%;
+        height: 80px;
+    }
+    #head{
+        font-size: 15px;
+    }
+    div.item1{
+        padding-left: 0px;
+    }
+    div.item2{
+        padding-left: 0px;
+    }
+    div.item3{
+       padding-left: 0px;
+    }
+    div.item4{
+        padding-left: 0px;
+    }
+    #head2{
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
+    #f11{
+        font-size: 1em;
+        width: 100vw;
+    }
+
+    /*Đây nha -----------------------------------------------------*/
+    section.five{
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-left: 20vw;
+    }
+    
+    /***************************************************************************/
+    .p1{
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    section.five img{
+        width: 70%;
+        height: 34.42%;
+        padding-bottom: 20px;
+    }
+    /* hoang edit */
+    .p2{ 
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    section.five button{
+        font-size: 10px;
+        width: 100%;
+        padding-bottom: 20px;
+        text-align: left;
+    }
+    section.five a{
+        text-decoration: none;
+    }
+    /*//////////////////////////////////////////*/
+
+    /*Footer*/
+    .nine{
+        display: block;
+        font-size: 10px;
+        margin-top: 30px;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        width: 100%;
+    }
+    div#f13{
+        margin-left: 30px;
+        margin-right: 0px;
+        width: 80vw;
+    }
+    #f13 h3{
+        padding-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 30vw;
+    }
+    #f13 h4{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 30vw;
+    }
+
+    div#f14{
+        padding:15px 0px 15px 0px;
+        margin-left: 30px;
+        margin-right: 0px;
+        width: 80vw;
+    }
+    #f14 h3{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 20px;
+        width: 30vw;
+    }
+    #f14 li{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 50vw;
+        padding-bottom: 7px;
+    }
+    #f14 ul{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 50vw;
+    }
+    #f15{
+        padding-left: 0px;
+        margin-left: 30px;
+        margin-right: 0px;
+        width: 80vw;
+    }
+    #f15 h3{
+        padding:3px 0px 10px 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 20px;
+        width: 30vw;
+    }
+    #tel{
+        padding-top: 10px;
+    }
+    
+    #f16{
+        padding-left: 0px;
+        margin-left:30px;
+        width: 80vw;
+    }
+    #f16 h3{
+        padding:30px 0px 10px 0px;
+    }
+    .buttom{
+        width: 10%;
+        width: 10%;
+    }
+    .buttom img{
+        width: 100%;/* se phu thuoc vao do dai lop gan nhat chinh la button*/
+        width: 100%;
+    }
+    .buttom button{
+        width: 11vw;
+        width: 11vw;
+    }
+   
+    div.buttom{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    
+    #f19{
+        width: 100vw;
+    }
+    .Name{
+        font-size:10px;
+        height: 20px;
+        width: 150px;
+        margin-bottom: 10px;
+    }
+    .email{
+        font-size:10px;
+        height: 20px;
+        width: 150px;
+        margin-bottom: 5px;
+    }
+    .submit{
+        margin-top: 10px;
+        height: 20px;
+        width: 50px;
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .end{
+        display: block;
+        font-size: 10px;
+    }
+    #text{
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    #text_last{
+        width: 100%;
+    }
+}
